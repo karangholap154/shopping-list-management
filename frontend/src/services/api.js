@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api', // backend URL
+  baseURL: 'https://shopping-list-backend-d8go.onrender.com/api', // backend URL
 });
 
 export const getItems = () => API.get('/items');
